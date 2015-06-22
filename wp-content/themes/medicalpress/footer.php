@@ -81,7 +81,7 @@
 								<input type="hidden" name="nonce" value="">
 
 								<input id="subs-form-submit" name="Submit" type="submit" value="SUBMIT" />
-								<img src="images/loader3.gif" id="subs-loader" alt="Loading...">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/loader3.gif" id="subs-loader" alt="Loading...">
 								<div id="subs-error-container"></div>
 								<div id="subs-response-container"></div>
 

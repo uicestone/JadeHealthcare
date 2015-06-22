@@ -12,7 +12,7 @@
 		<meta name="format-detection" content="telephone=no">
 		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
 		<!-- favicon -->
-		<link rel="shortcut icon" href="images/favicon-new.png">
+		<link rel="shortcut icon" href="<?=get_stylesheet_directory_uri()?>/images/favicon-new.png">
 
 		<!-- Google Web Font -->
 <!--		<link href="http://fonts.googleapis.com/css?family=Raleway:400,100,500,600,700,800,900,300,200" rel="stylesheet" type="text/css">
@@ -36,13 +36,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 ">
-						<p>Welcome to MecialPress a Premium Medical Theme</p>
+						<p>欢迎来到颉安健康 JADE HEALTHCARE</p>
 					</div>
 					<!--opening hours-->
 					<div class="col-md-7 text-right">
 						<p>
-							Opening Hours : <span>Monday to Saturday - 8am to 9pm</span>
-							<br class="visible-xs">&nbsp;&nbsp;Contact : <span>+1-800-654-3210</span>
+							工作时间: <span>周一至周五9:00 - 18:00</span>
+							<br class="visible-xs">&nbsp;&nbsp;联系方式: <span>021－54371223</span>
 						</p>
 					</div>
 
@@ -57,103 +57,12 @@
 				<!-- Website Logo -->
 				<div class="logo clearfix">
 					<a href="index.html">
-						<img src="images/temp-images/logo-two.png" alt="Medicalpress">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/logo-two.png" alt="Medicalpress">
 					</a>
 				</div>
 
 				<!-- Main Navigation -->
-				<nav class="main-menu">
-					<ul class="header-nav clearfix" id="menu-main-menu">
-						<li>
-							<a href="index.html">Home</a>
-							<ul>
-								<li><a href="home-variation2.html">Home Variation 2</a></li>
-								<li><a href="home-variation3.html">Home Variation 3</a></li>
-								<li><a href="home-variation4.html">Home Variation 4</a></li>
-
-							</ul>
-						</li>
-						<li>
-							<a href="doctors-three-columns.html">Doctors</a>
-							<ul>
-								<li>
-									<a href="doctors-four-columns.html">4 Columns Doctors</a>
-								</li>
-								<li>
-									<a href="doctors-three-columns.html">3 Columns Doctors</a>
-								</li>
-								<li>
-									<a href="doctors-two-columns.html">2 Columns Doctors</a>
-								</li>
-							</ul>
-						</li>
-						<li class="current-menu-item page_item">
-							<a href="blog.html">News</a>
-							<ul>
-								<li><a href="image-post-format.html">Image post format</a></li>
-								<li><a href="gallery-post-format.html">Gallery post format</a></li>
-								<li><a href="video-post-format.html">Video post format</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Services</a>
-							<ul>
-								<li>
-									<a href="services-three-columns.html">3 Columns Services</a>
-								</li>
-								<li>
-									<a href="services-two-columns.html">2 Columns Services</a>
-								</li>
-								<li>
-									<a href="services-one-column.html">1 Column Services</a>
-								</li>
-								<li>
-									<a href="services-dental.html">Services Detail page</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Gallery</a>
-							<ul>
-								<li>
-									<a href="gallery-four-columns.html">4 Columns Gallery</a>
-								</li>
-								<li>
-									<a href="gallery-three-columns.html">3 Columns Gallery</a>
-								</li>
-								<li>
-									<a href="gallery-two-columns.html">2 Columns Gallery</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Pages</a>
-							<ul>
-								<li>
-									<a href="faq.html">FAQs</a>
-								</li>
-								<li>
-									<a href="faq-full-width.html">Full Width FAQs</a>
-								</li>
-								<li>
-									<a href="elements.html">Elements</a>
-								</li>
-								<li>
-									<a href="columns.html">Columns</a>
-								</li>
-								<li>
-									<a href="sample-page.html">Sample Page</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="appointment.html">Appointment</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
+				<?php wp_nav_menu(array('theme_location'=>'main-nav', 'container'=>'nav', 'container_class'=>'main-menu')); ?>
 				<div id="responsive-menu-container"></div>
 			</div>
 		</header>

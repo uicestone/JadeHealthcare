@@ -28,8 +28,8 @@
                                     <ul class="slides">
                                         <li>
                                             <!--service image-->
-                                            <a class="swipebox" href="images/temp-images/service-3.jpg" title="Dental Implants" >
-                                                <img src="images/temp-images/service-3.jpg" alt="service-3" />
+                                            <a class="swipebox" href="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-3.jpg" title="Dental Implants" >
+                                                <img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-3.jpg" alt="service-3" />
                                             </a>
                                         </li>
                                     </ul>

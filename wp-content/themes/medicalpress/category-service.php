@@ -23,7 +23,7 @@
 				<article class="service type-service hentry three-col-service">
 					<figure>
 						<a href="services-dental.html" title="Dental Implants">
-							<img src="images/temp-images/service-3.jpg"  alt="Dental Implants" />
+							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-3.jpg"  alt="Dental Implants" />
 						</a>
 					</figure>
 					<div class="contents clearfix">
@@ -42,7 +42,7 @@
 				<article class="service type-service hentry three-col-service">
 					<figure>
 						<a href="services-blood.html" title="Blood Bank">
-							<img src="images/temp-images/service-2.jpg" class="attachment-service-gallery-thumb wp-post-image" alt="Blood Bank" />
+							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-2.jpg" class="attachment-service-gallery-thumb wp-post-image" alt="Blood Bank" />
 						</a>
 					</figure>
 					<div class="contents clearfix">
@@ -62,7 +62,7 @@
 				<article class="service type-service hentry three-col-service">
 					<figure>
 						<a href="services-research.html" title="Medicine Research">
-							<img src="images/temp-images/service-5.jpg" alt="Medicine Research" />
+							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-5.jpg" alt="Medicine Research" />
 						</a>
 					</figure>
 					<div class="contents clearfix">
@@ -84,7 +84,7 @@
 				<article class="service type-service hentry three-col-service">
 					<figure>
 						<a href="services-advice.html" title="Pharmaceutical Advice">
-							<img src="images/temp-images/service-4.jpg" alt="Pharmaceutical Advice" />
+							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-4.jpg" alt="Pharmaceutical Advice" />
 						</a>
 					</figure>
 					<div class="contents clearfix">
@@ -103,7 +103,7 @@
 				<article class="service type-service hentry three-col-service">
 					<figure>
 						<a href="services-counseling.html" title="Medical Counseling">
-							<img  src="images/temp-images/service-1.jpg" alt="Medical Counseling" />
+							<img  src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-1.jpg" alt="Medical Counseling" />
 						</a>
 					</figure>
 					<div class="contents clearfix">

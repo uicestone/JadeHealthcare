@@ -43,7 +43,7 @@
 					<input type="hidden" name="nonce" value="">
 					<textarea name="message" id="message" class="required"  placeholder="Message" title="* Please provide your message"></textarea>
 					<input id="contact-form-submit" type="submit" value="SUBMIT">
-					<img src="images/loader.gif" id="contact-loader" alt="Loading...">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/loader.gif" id="contact-loader" alt="Loading...">
 					<div id="error-container"></div>
 					<div id="response-container"></div>
 				</form>

@@ -50,8 +50,8 @@
 									<header class="entry-header">
 
 										<figure>
-											<a class="swipebox" href="images/temp-images/news-2.jpg" title="Image Post Format">
-												<img src="images/temp-images/news-2.jpg" class="attachment-blog-page wp-post-image" alt="news-2" />
+											<a class="swipebox" href="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-2.jpg" title="Image Post Format">
+												<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-2.jpg" class="attachment-blog-page wp-post-image" alt="news-2" />
 											</a>
 										</figure>
 
@@ -109,7 +109,7 @@
 
 												<div class="comment-wrap clearfix">
 
-													<a class="avatar" href=""><img alt="avatar" src="images/temp-images/person1-1.jpeg"></a>
+													<a class="avatar" href=""><img alt="avatar" src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person1-1.jpeg"></a>
 
 													<div class="comment-detail-wrap">
 														<div class="comment-meta">
@@ -133,7 +133,7 @@
 
 												<div class="comment-wrap clearfix">
 
-													<a class="avatar" href=""><img alt="avatar" src="images/temp-images/person3-3.jpeg"></a>
+													<a class="avatar" href=""><img alt="avatar" src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person3-3.jpeg"></a>
 
 													<div class="comment-detail-wrap">
 														<div class="comment-meta">
@@ -157,7 +157,7 @@
 
 												<div class="comment-wrap clearfix">
 
-													<a class="avatar" href=""><img alt="avatar" src="images/temp-images/person-2-2.jpeg"></a>
+													<a class="avatar" href=""><img alt="avatar" src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person-2-2.jpeg"></a>
 
 													<div class="comment-detail-wrap">
 														<div class="comment-meta">
@@ -179,7 +179,7 @@
 												<li class="comment depth-2" >
 													<article>
 														<div class="comment-wrap clearfix">
-															<a class="avatar" href="#"><img alt="avatar" src="images/temp-images/person1-1.jpeg"></a>
+															<a class="avatar" href="#"><img alt="avatar" src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person1-1.jpeg"></a>
 
 															<div class="comment-detail-wrap">
 																<div class="comment-meta">
@@ -264,7 +264,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -275,7 +275,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -286,7 +286,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -298,7 +298,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-2-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-2" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -309,7 +309,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/gallery-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="gallery-1" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -320,7 +320,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img src="images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
+											<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/news-1-150x150.jpg" class="tabs-thumb wp-post-image" alt="news-1" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -333,7 +333,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img alt='person' src="images/temp-images/person1.jpeg" />
+											<img alt='person' src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person1.jpeg" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -344,7 +344,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img alt='person' src="images/temp-images/person2.jpeg" />
+											<img alt='person' src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person2.jpeg" />
 										</a>
 									</figure>
 									<div class="post-content">
@@ -355,7 +355,7 @@
 								<div class="tab-post-listing clearfix">
 									<figure>
 										<a href="#">
-											<img alt='person' src="images/temp-images/person3.jpeg" />
+											<img alt='person' src="<?=get_stylesheet_directory_uri()?>/images/temp-images/person3.jpeg" />
 										</a>
 									</figure>
 									<div class="post-content">
