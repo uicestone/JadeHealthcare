@@ -3,35 +3,24 @@
 		<div class="container">
 			<div class="row">
 				<!--about widget-->
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-5 col-sm-6">
 					<section  class="widget animated fadeInLeft">
-						<h3 class="title">About MedicalPress</h3>
+						<h3 class="title">关于我们<br>JADE HEALTHCARE</h3>
 						<div class="textwidget">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-							<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+							<?=wpautop(get_posts('post_type=page&name=about')[0]->post_content)?>
 						</div>
 					</section>
 				</div>
 				<!--general services-->
-				<div class="col-md-3 col-sm-6  ">
+				<div class="col-md-2 col-sm-6">
 					<section class="widget animated fadeInLeft ae-animation-fadeInLeft">
-						<h3 class="title">General Services</h3>
+						<h3 class="title">我们的服务</h3>
 						<ul>
+							<?php foreach(get_posts('category_name=健康服务产品') as $post){ ?>
 							<li>
-								<a href="#">Immunization</a>
+								<a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a>
 							</li>
-							<li>
-								<a href="#">Medical Services</a>
-							</li>
-							<li>
-								<a href="#">Surgical</a>
-							</li>
-							<li>
-								<a href="#">Diagnostic Services</a>
-							</li>
-							<li>
-								<a href="#">Pharmacy</a>
-							</li>
+							<?php } ?>
 						</ul>
 					</section>
 				</div>
@@ -39,25 +28,15 @@
 				<div class="clearfix visible-sm"></div>
 
 				<!--recent posts-->
-				<div class="col-md-3 col-sm-6  ">
+				<div class="col-md-2 col-sm-6  ">
 					<section  class="widget animated fadeInLeft">
-						<h3 class="title">Recent Posts</h3>
+						<h3 class="title">健康食品</h3>
 						<ul>
+							<?php foreach(get_posts('category_name=健康食品') as $post){ ?>
 							<li>
-								<a href="#">Hello world!</a>
+								<a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a>
 							</li>
-							<li>
-								<a href="#">Image Post Format</a>
-							</li>
-							<li>
-								<a href="#">Quote Post Format</a>
-							</li>
-							<li>
-								<a href="#">Gallery Post Format</a>
-							</li>
-							<li>
-								<a href="#">How to Live a Healthier Life</a>
-							</li>
+							<?php } ?>
 						</ul>
 					</section>
 				</div>
@@ -95,10 +74,10 @@
 			<div class="footer-bottom animated fadeInDown clearfix">
 				<div class="row">
 					<div class="col-sm-7">
-						<p>&copy; Copyright 2014. All Rights Reserved by Medical Press</p>
+						<p>&copy; Copyright <?=date('Y')?>. All Rights Reserved by STIR</p>
 					</div>
 					<!--footer social icons-->
-					<div class="col-sm-5 clearfix">
+<!--					<div class="col-sm-5 clearfix">
 						<ul class="footer-social-nav">
 							<li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -109,7 +88,7 @@
 							<li><a target="_blank" href="skype:skypeusername?add"><i class="fa fa-skype"></i></a></li>
 							<li><a target="_blank" href="#"><i class="fa fa-rss"></i></a></li>
 						</ul>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>

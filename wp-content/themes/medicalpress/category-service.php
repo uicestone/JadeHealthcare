@@ -5,117 +5,39 @@
 <div class=" page-top clearfix">
 	<div class="container">
 		<!--page main heading-->
-		<h1 class="entry-title">3 Columns Services</h1>
-		<nav class="bread-crumb">
+		<h1 class="entry-title"><?php single_cat_title(); ?></h1>
+<!--		<nav class="bread-crumb">
 			<ul class="breadcrumb clearfix">
 				<li><a href="#">Medical Press</a><span class="divider"></span></li>
 				<li class="active">3 Columns Services</li>
 			</ul>
-		</nav>
+		</nav>-->
 	</div>
 </div>
 
 <div class="services-page clearfix">
 	<div class="container">
 		<div class="row ">
+			<?php while(have_posts()): the_post(); ?>
 			<!--column start-->
 			<div class="col-md-4 col-sm-6">
 				<article class="service type-service hentry three-col-service">
 					<figure>
-						<a href="services-dental.html" title="Dental Implants">
-							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-3.jpg"  alt="Dental Implants" />
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+							<?php the_post_thumbnail('1-3-width-large'); ?>
 						</a>
 					</figure>
 					<div class="contents clearfix">
-						<h4><a href="services-dental.html">Dental Implants</a></h4>
+						<h4><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
 						<div class="entry-content">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&hellip;</p>
+							<p><?php the_excerpt(); ?></p>
 						</div>
-						<a class="read-more" href="services-dental.html">Read More</a>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">了解更多</a>
 					</div>
 				</article>
 			</div>
 			<!--column end-->
-
-			<!--column start-->
-			<div class="col-md-4 col-sm-6">
-				<article class="service type-service hentry three-col-service">
-					<figure>
-						<a href="services-blood.html" title="Blood Bank">
-							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-2.jpg" class="attachment-service-gallery-thumb wp-post-image" alt="Blood Bank" />
-						</a>
-					</figure>
-					<div class="contents clearfix">
-						<h4><a href="services-blood.html">Blood Bank</a></h4>
-						<div class="entry-content">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&hellip;</p>
-						</div>
-						<a class="read-more" href="services-blood.html">Read More</a>
-					</div>
-				</article>
-			</div>
-			<!--column end-->
-
-			<!--column start-->
-			<div class="visible-sm clearfix"></div>
-			<div class="col-md-4 col-sm-6 ">
-				<article class="service type-service hentry three-col-service">
-					<figure>
-						<a href="services-research.html" title="Medicine Research">
-							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-5.jpg" alt="Medicine Research" />
-						</a>
-					</figure>
-					<div class="contents clearfix">
-						<h4><a href="services-research.html">Medicine Research</a></h4>
-						<div class="entry-content">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&hellip;</p>
-						</div>
-						<a class="read-more" href="services-research.html">Read More</a>
-					</div>
-				</article>
-			</div>
-			<!--column end-->
-
-
-			<div class="visible-lg clearfix"></div>
-			<div class="visible-md clearfix"></div>
-			<!--column start-->
-			<div class="col-md-4 col-sm-6 ">
-				<article class="service type-service hentry three-col-service">
-					<figure>
-						<a href="services-advice.html" title="Pharmaceutical Advice">
-							<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-4.jpg" alt="Pharmaceutical Advice" />
-						</a>
-					</figure>
-					<div class="contents clearfix">
-						<h4><a href="services-advice.html">Pharmaceutical Advice</a></h4>
-						<div class="entry-content">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&hellip;</p>
-						</div>
-						<a class="read-more" href="services-advice.html">Read More</a>
-					</div>
-				</article>
-			</div>
-			<!--column end-->
-			<div class="visible-sm clearfix"></div>
-			<!--column start-->
-			<div class="col-md-4 col-sm-6 ">
-				<article class="service type-service hentry three-col-service">
-					<figure>
-						<a href="services-counseling.html" title="Medical Counseling">
-							<img  src="<?=get_stylesheet_directory_uri()?>/images/temp-images/service-1.jpg" alt="Medical Counseling" />
-						</a>
-					</figure>
-					<div class="contents clearfix">
-						<h4><a href="services-counseling.html">Medical Counseling</a></h4>
-						<div class="entry-content">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&hellip;</p>
-						</div>
-						<a class="read-more" href="services-counseling.html">Read More</a>
-					</div>
-				</article>
-			</div>
-			<!--column end-->
+			<?php endwhile; ?>
 		</div>
 	</div>
 </div>

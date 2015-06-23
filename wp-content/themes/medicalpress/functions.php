@@ -70,3 +70,4 @@ add_image_size('full-width', 2000, 800, true);
 add_image_size('1-3-width', 732, 447, true);
 add_image_size('1-4-width', 675, 500, true);
 add_image_size('archive-poster', 732, 608, true);
+add_image_size('1-3-width-large', 818, 518, true);
