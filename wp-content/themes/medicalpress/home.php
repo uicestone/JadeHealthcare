@@ -47,7 +47,7 @@
 					<div class="col-sm-6 single-feature">
 						<div class="row">
 							<div class="col-sm-3 icon-wrapper">
-								<i class="fa fa-plus-square fa-custom"></i>
+								<img src="<?=get_stylesheet_directory_uri()?>/images/service icon-01.png">
 							</div>
 							<div class="col-sm-9">
 								<h3>基因检测</h3>
@@ -60,7 +60,7 @@
 					<div class="col-sm-6 single-feature">
 						<div class="row">
 							<div class="col-sm-3 icon-wrapper">
-								<i class="fa fa-medkit fa-custom"></i>
+								<img src="<?=get_stylesheet_directory_uri()?>/images/service icon-02.png">
 							</div>
 							<div class="col-sm-9">
 								<h3>报告解读</h3>
@@ -72,7 +72,7 @@
 					<div class="col-sm-6 single-feature" style="clear:left">
 						<div class="row">
 							<div class="col-sm-3 icon-wrapper">
-								<i class="fa fa-user-md fa-custom"></i>
+								<img src="<?=get_stylesheet_directory_uri()?>/images/service icon-03.png">
 							</div>
 							<div class="col-sm-9">
 								<h3>深度体检</h3>
@@ -84,7 +84,7 @@
 					<div class="col-sm-6 single-feature">
 						<div class="row">
 							<div class="col-sm-3 icon-wrapper">
-								<i class="fa fa-ambulance fa-custom"></i>
+								<img src="<?=get_stylesheet_directory_uri()?>/images/service icon-04.png">
 							</div>
 							<div class="col-sm-9">
 								<h3>健康食品</h3>

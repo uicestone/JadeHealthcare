@@ -56,8 +56,8 @@
 
 				<!-- Website Logo -->
 				<div class="logo clearfix">
-					<a href="index.html">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/temp-images/logo-two.png" alt="Medicalpress">
+					<a href="<?=site_url()?>">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/logo-01.png" alt="<?=bloginfo('site_name')?>">
 					</a>
 				</div>
 

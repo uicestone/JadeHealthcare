@@ -43,31 +43,10 @@
 				<!--subscription form-->
 				<div class="col-md-3 col-sm-6  ">
 					<section  class="widget animated fadeInLeft">
-						<h3 class="title">Subscribe!</h3>
-						<div class="textwidget">Subscribe to my blog for updates</div>
-						<div>
-
-							<form name="subs-form" id="subs_form" class="subs-form" method="post" action="subscription-handler.php">
-
-
-								<label for="subs-name">Name:</label>
-								<input name="name" id="subs-name" class="required" type="text" title="* Please provide your name" /><br/>
-
-								<label for="subs-email">Email:</label>
-								<input name="email" class="required email" id="subs-email" type="text" title="* Please provide a valid email address" /><br/>
-
-								<input type="hidden" name="action" value="send_message">
-								<input type="hidden" name="nonce" value="">
-
-								<input id="subs-form-submit" name="Submit" type="submit" value="SUBMIT" />
-								<img src="<?=get_stylesheet_directory_uri()?>/images/loader3.gif" id="subs-loader" alt="Loading...">
-								<div id="subs-error-container"></div>
-								<div id="subs-response-container"></div>
-
-							</form>
-
-						</div>
-
+						<img src="<?=get_stylesheet_directory_uri()?>/images/qrcode-01.png">
+						<div class="textwidget text-center" style="width:100%">WeChat</div>
+						<div class="textwidget">工作时间：周一至周五 9:00-18:00</div>
+						<div class="textwidget">联系方式：021-21548456</div>
 					</section>
 				</div>
 			</div>
