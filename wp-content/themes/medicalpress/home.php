@@ -150,15 +150,15 @@
 						</a>
 					</figure>
 					<div class="text-content clearfix">
-						<h5><a href="<?=get_the_permalink($post->ID)?>" title="<?=get_the_title($post->ID)?>">Image Post Format</a></h5>
+						<h5><a href="<?=get_the_permalink($post->ID)?>" title="<?=get_the_title($post->ID)?>"><?=get_the_title($post->ID)?></a></h5>
 						<div class="entry-meta">
-							<span><?=get_the_date('', $post)?></span>, by <?=$post->post_author?>
+							<span><?=get_the_date('', $post)?></span>, by <?=get_userdata($post->post_author)->display_name?>
 						</div>
 						<div class="for-border"></div>
 						<p><?=$post->post_excerpt?></p>
 					</div>
 				</article>
-				<a href="<?=get_the_permalink($post->ID)?>" title="<?=get_the_title($post->ID)?>">了解更多</a>
+				<a href="<?=get_the_permalink($post->ID)?>" title="<?=get_the_title($post->ID)?>" class="read-more">了解更多</a>
 			</div>
 			<?php } ?>
 		</div>
