@@ -38,7 +38,7 @@
 				<div class="features-intro clearfix">
 					<h2>颉安健康 <span>JADE HEALTHCARE</span></h2>
 					<p>颉安（上海）健康科技有限公司（简称颉安健康）致力于健康管理，健康科技，健康食品的产业化运营，用高品质健康管理提升生命质量。</p>
-					<a class="read-more" href="<?=site_url()?>/category/产品与服务/">我们的服务</a>
+					<a class="read-more" href="<?=site_url()?>/category/产品与服务/service/">我们的服务</a>
 				</div>
 			</div>
 
