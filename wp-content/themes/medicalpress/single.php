@@ -92,10 +92,10 @@
 			<div class="col-lg-3 col-md-4">
 				<aside class="sidebar clearfix">
 					<section class="widget widget_categories">
-						<h3 class="title">分类</h3>
+						<h3 class="title">服务</h3>
 						<ul>
-							<?php foreach(get_categories() as $category){ ?>
-							<li><a href="<?=get_category_link($category)?>"><?=$category->name?></a></li>
+							<?php foreach(get_posts(array('category_name'=>'service')) as $post){ ?>
+							<li><a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a></li>
 							<?php } ?>
 						</ul>
 					</section>
