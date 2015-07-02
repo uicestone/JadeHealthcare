@@ -9,7 +9,7 @@ add_action('init', function(){
 	wp_register_style('datepicker', get_stylesheet_directory_uri() . '/css/datepicker.css', array(), null);
 	wp_register_style('swipebox', get_stylesheet_directory_uri() . '/css/swipebox.css', array(), null);
 	wp_register_style('meanmenu', get_stylesheet_directory_uri() . '/css/meanmenu.css', array(), null);
-	wp_register_style('main', get_stylesheet_directory_uri() . '/css/main.css', array(), 1.1);
+	wp_register_style('main', get_stylesheet_directory_uri() . '/css/main.css', array(), 1.2);
 	wp_register_style('custom-responsive', get_stylesheet_directory_uri() . '/css/custom-responsive.css', array(), null);
 	
 	wp_register_script('bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array('jquery'), null, true);

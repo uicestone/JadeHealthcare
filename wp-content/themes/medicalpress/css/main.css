@@ -168,8 +168,8 @@ textarea {
 }
 .read-more:hover {
   color: #fff;
-  background-color: #f15b5a;
-  text-decoration: none;
+/*  background-color: #f15b5a;
+  text-decoration: none;*/
 }
 .read-more.black {
   background-color: #3a3c41;
@@ -781,10 +781,10 @@ nav.main-menu ul > .current-menu-item > a {
   background-color: #5dc98d;
     color: #ffffff;
 }
-.home-slider .slide-content .slider-button:hover {
+/*.home-slider .slide-content .slider-button:hover {
   background-color: #3a3c41;
   color: #fff;
-}
+}*/
 .home-slider .slide-content.display-bg {
   background-color: rgba(225, 255, 255, 0.6);
   padding: 20px;
@@ -1054,10 +1054,10 @@ nav.main-menu ul > .current-menu-item > a {
   text-transform: uppercase;
   font-size: 16px;
 }
-.home-features .features-intro .read-more:hover {
+/*.home-features .features-intro .read-more:hover {
   background-color: #3a3c41;
   color: #fff;
-}
+}*/
 .home-features .single-feature {
   margin-bottom: 60px;
     min-height: 150px;
