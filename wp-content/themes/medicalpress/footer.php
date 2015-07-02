@@ -16,7 +16,7 @@
 					<section class="widget animated fadeInLeft ae-animation-fadeInLeft">
 						<h3 class="title">我们的服务</h3>
 						<ul>
-							<?php foreach(get_posts('category_name=健康服务产品') as $post){ ?>
+							<?php foreach(get_posts(array('category_name'=>'service')) as $post){ ?>
 							<li>
 								<a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a>
 							</li>
@@ -32,7 +32,7 @@
 					<section  class="widget animated fadeInLeft">
 						<h3 class="title">健康食品</h3>
 						<ul>
-							<?php foreach(get_posts('category_name=健康食品') as $post){ ?>
+							<?php foreach(get_posts(array('category_name'=>'健康食品')) as $post){ ?>
 							<li>
 								<a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a>
 							</li>
