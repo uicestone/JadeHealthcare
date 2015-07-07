@@ -36,13 +36,6 @@
 		</div>
 
 	</div>
-	<!--google map -->
-	<div class="container">
-		<div class="map-wrapper">
-			<h5>Location in Map</h5>
-			<div id="map-canvas"></div>
-		</div>
-	</div>
 
 </div>
 
