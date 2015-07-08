@@ -109,7 +109,7 @@
 		</div>
 
 		<div class="row">
-			<?php foreach(get_posts(array('category_name'=>'产品与服务', 'posts_per_page'=>4)) as $post){ ?>
+			<?php foreach(get_posts(array('category_name'=>'service', 'posts_per_page'=>4)) as $post){ ?>
 			<div class="col-md-3 col-sm-6  text-center">
 				<div class="common-doctor animated fadeInUp clearfix">
 					<figure>
