@@ -42,7 +42,7 @@
 					<div class="col-md-7 text-right">
 						<p>
 							工作时间: <span>周一至周五9:00 - 18:00</span>
-							<br class="visible-xs">&nbsp;&nbsp;联系方式: <span>021－54371223</span>
+							<br class="visible-xs">&nbsp;&nbsp;联系方式: <span>021-69011223</span>
 						</p>
 					</div>
 
