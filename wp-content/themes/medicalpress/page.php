@@ -35,13 +35,7 @@
 				<div class="blog-post-single clearfix">
 
 					<div class="row">
-						<div class="col-sm-2">
-							<div class="left_meta clearfix entry-meta">
-								<time class="entry-time" datetime="2014-05-10T11:07:36+00:00"><?=get_the_date('MM')?> <strong><?=get_the_date('d')?></strong></time>
-								<span class="comments_count clearfix entry-comments-link"><a href="#" title="Comment on Gallery Post Format">0</a></span>
-							</div>
-						</div>
-						<div class="col-sm-10">
+						<div class="col-sm-12">
 							<article class="post format-gallery hentry clearfix">
 								<div class="right-contents">
 									<header class="entry-header">
