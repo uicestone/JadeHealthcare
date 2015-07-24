@@ -32,7 +32,7 @@
 					<section  class="widget animated fadeInLeft">
 						<h3 class="title">健康食品</h3>
 						<ul>
-							<?php foreach(get_posts(array('category_name'=>'健康食品')) as $post){ ?>
+							<?php foreach(get_posts(array('category_name'=>'product')) as $post){ ?>
 							<li>
 								<a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a>
 							</li>
