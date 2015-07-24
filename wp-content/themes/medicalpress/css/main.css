@@ -3662,3 +3662,7 @@ table tbody tr {
     filter: alpha(opacity=100);        /* IE 6, 7, 8 */
 
 }
+
+.col-md-4:nth-child(3n+1) {
+	clear: left;
+}

@@ -31,7 +31,7 @@
 <div class="blog-page clearfix">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-9 col-md-8">
+			<div class="col-lg-8 col-md-8">
 				<div class="blog-post-single clearfix">
 
 					<div class="row">
@@ -83,15 +83,10 @@
 				</div>
 			</div>
 
-			<div class="col-lg-3 col-md-4">
+			<div class="col-lg-4 col-md-4">
 				<aside class="sidebar clearfix">
-					<section class="widget widget_categories">
-						<h3 class="title">服务</h3>
-						<ul>
-							<?php foreach(get_posts(array('category_name'=>'service')) as $post){ ?>
-							<li><a href="<?=get_the_permalink($post->ID)?>"><?=get_the_title($post->ID)?></a></li>
-							<?php } ?>
-						</ul>
+					<section class="widget">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/about-side.jpg">
 					</section>
 				</aside>
 			</div>
