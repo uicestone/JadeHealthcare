@@ -53,9 +53,6 @@
 										</figure>
 
 										<h1 class="entry-title"><?php the_title(); ?></h1>
-										<span class="entry-author">
-											<span class="entry-author-link"><?php the_author(); ?></span>
-										</span>
 									</header>
 
 									<div class="entry-content">
