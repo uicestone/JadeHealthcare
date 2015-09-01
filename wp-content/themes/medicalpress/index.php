@@ -58,9 +58,6 @@
 										<!--post title-->
 										<h3 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 										<!--author name-->
-										<span class="entry-author">
-											<span class="entry-author-link"> <?php the_author(); ?></span>
-										</span>
 									</header>
 									<!--post content-->
 									<div class="entry-content">
