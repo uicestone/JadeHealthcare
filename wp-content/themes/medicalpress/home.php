@@ -152,7 +152,7 @@
 					<div class="text-content clearfix">
 						<h5><a href="<?=get_the_permalink($post->ID)?>" title="<?=get_the_title($post->ID)?>"><?=get_the_title($post->ID)?></a></h5>
 						<div class="entry-meta">
-							<span><?=get_the_date('', $post)?></span>, by <?=get_userdata($post->post_author)->display_name?>
+							<span><?=get_the_date('', $post)?></span>
 						</div>
 						<div class="for-border"></div>
 						<p><?=$post->post_excerpt?></p>
