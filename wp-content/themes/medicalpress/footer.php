@@ -53,7 +53,7 @@
 			<div class="footer-bottom animated fadeInDown clearfix">
 				<div class="row">
 					<div class="col-sm-7">
-						<p>&copy; Copyright <?=date('Y')?>. All Rights Reserved by STIR</p>
+						<p>&copy; Copyright <?=date('Y')?>. All Rights Reserved by Jadehealthcare <a style="color: rgb(155, 160, 170);" href="http://120.24.160.24/网站法律声明/">网站法律声明</a></p>
 					</div>
 					<!--footer social icons-->
 <!--					<div class="col-sm-5 clearfix">
