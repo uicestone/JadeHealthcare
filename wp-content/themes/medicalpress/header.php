@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 
 		<!-- Title -->
-		<title>Medicalpress | Just another Website</title>
+		<title>颉安健康网 健康服务、健康管理、基因检测、儿童天赋、健康食品</title>
 
 		<!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
